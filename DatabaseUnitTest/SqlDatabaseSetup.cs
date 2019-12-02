@@ -17,6 +17,7 @@ namespace DatabaseUnitTest
         {
             // Setup the test database based on setting in the
             // configuration file
+            //9090
             SqlDatabaseTestClass.TestService.DeployDatabaseProject();
             SqlDatabaseTestClass.TestService.GenerateData();
         }
